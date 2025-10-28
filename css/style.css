@@ -1,0 +1,146 @@
+/* Google Fonts: Roboto */
+body {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+/* Estilos para la biografía */
+header {
+    background: linear-gradient(90deg, #355664 60%, #4FC3F7 100%);
+    padding: 20px 0 10px 0;
+    border-radius: 0 0 20px 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+nav {
+    margin: 20px 0 10px 0;
+    overflow: auto;
+    background: #263238;
+    border-radius: 10px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+}
+
+nav span a {
+    background-color: #B2DFD8;
+    color: #263238;
+    font-weight: bold;
+    border-radius: 8px;
+    margin: 5px 8px;
+    transition: background 0.3s, color 0.3s;
+}
+
+nav span a:hover {
+    background-color: #4FC3F7;
+    color: #fff;
+}
+
+section {
+    margin-top: 20px;
+}
+
+section article {
+    background: rgba(255,255,255,0.08);
+    border-radius: 12px;
+    margin-bottom: 20px;
+    box-shadow: 0 1px 6px rgba(0,0,0,0.07);
+}
+
+section article h3 {
+    color: #4FC3F7;
+    margin-bottom: 5px;
+}
+
+section article ul {
+    padding-left: 20px;
+    color: #B2DFD8;
+}
+
+section article img {
+    display: block;
+    margin: 0 auto 10px auto;
+    border: 3px solid #4FC3F7;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+}
+
+a[href^="mailto:"] {
+    color: #FFB300;
+    text-decoration: underline;
+}
+
+a[href^="https://github.com"] {
+    color: #4FC3F7;
+    font-weight: bold;
+}
+
+@media (max-width: 700px) {
+    div.wrapper {
+        width: 98%;
+    }
+    header h1 {
+        font-size: 1.2rem;
+    }
+    nav span a {
+        font-size: 0.8rem;
+        padding: 7px;
+    }
+}
+html{
+    font-size: 20px;
+}
+
+body{
+    color: #fcfcfc;
+    background-color: #355664;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    font-size: 2rem;
+}
+
+h2{
+    font-size: 1.2rem;
+}
+
+h3{
+    font-size: 1rem;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    font-size: 0.7rem;
+    margin-top: 20px;
+    padding: 5px;
+    text-align: center;
+}
+
+div.wrapper{
+    margin: 0 auto;
+    width: 80%;
+}
+
+section article{
+    background-color: rgba(33, 62, 74, 1);
+    margin-top: 20px;
+    padding: 12px;
+}
+
+section article p{
+    font-size: 0.8rem;
+    text-align: justify;
+}
+
+nav span a{
+    background-color: white;
+    border-right: 1px solid;
+    color: black;
+    font-size: 0.6rem;
+    float: left;
+    padding: 10px;
+    text-decoration: none;
+}
+
+nav span a:hover{
+    background-color: #B2DFD8;
+}
